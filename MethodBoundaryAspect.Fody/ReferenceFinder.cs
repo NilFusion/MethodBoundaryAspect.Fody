@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using Mono.Cecil;
 using Mono.Cecil.Rocks;
+using System.Diagnostics;
 
 namespace MethodBoundaryAspect.Fody
 {
@@ -21,6 +22,9 @@ namespace MethodBoundaryAspect.Fody
 
         public MethodReference GetMethodReference(TypeReference typeReference, Func<MethodDefinition, bool> predicate)
         {
+            Debugger.Break();
+            Debugger.Launch();
+
             var typeDefinition = typeReference.Resolve();
 
             MethodDefinition methodDefinition;
