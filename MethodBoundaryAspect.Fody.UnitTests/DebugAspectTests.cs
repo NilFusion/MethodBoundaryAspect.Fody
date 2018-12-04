@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.IO;
 using FluentAssertions;
-using MethodBoundaryAspect.Fody.UnitTests.TestProgram;
+using MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461;
 using Xunit;
 
 namespace MethodBoundaryAspect.Fody.UnitTests

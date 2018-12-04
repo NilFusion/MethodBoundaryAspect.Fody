@@ -1,7 +1,7 @@
 using System;
-using MethodBoundaryAspect.Fody.UnitTests.TestProgramAspects;
+using MethodBoundaryAspect.Fody.UnitTests.TestProgram.Shared.Aspects;
 
-namespace MethodBoundaryAspect.Fody.UnitTests.TestProgram
+namespace MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461
 {
     [LogClass]
     public class TestClass

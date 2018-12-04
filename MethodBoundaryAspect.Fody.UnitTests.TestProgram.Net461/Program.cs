@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace MethodBoundaryAspect.Fody.UnitTests.TestProgram
+namespace MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461
 {
     internal static class Program
     {
