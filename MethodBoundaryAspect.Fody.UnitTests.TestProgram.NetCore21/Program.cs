@@ -11,7 +11,7 @@ namespace MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21
                 Debugger.Launch();
             Debugger.Break();
 
-            var testClass = new TestClass();
+            var testClass = new TestProgramClass();
             testClass.DoIt(7);
         }
     }

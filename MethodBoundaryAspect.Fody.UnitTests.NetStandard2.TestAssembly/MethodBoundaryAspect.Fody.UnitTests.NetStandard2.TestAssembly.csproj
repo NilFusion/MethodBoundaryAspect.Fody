@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared\MethodBoundaryAspect.Fody.UnitTests.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

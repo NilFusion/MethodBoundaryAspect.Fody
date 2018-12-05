@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="xunit.runner.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="xunit.runner.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.NetCore21.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.NetCore21.TestAssembly.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.NetStandard2.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.NetStandard2.TestAssembly.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared\MethodBoundaryAspect.Fody.UnitTests.Shared.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21\MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody\MethodBoundaryAspect.Fody.csproj" />
+  </ItemGroup>
+
+</Project>

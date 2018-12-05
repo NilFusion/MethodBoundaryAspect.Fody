@@ -1,13 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects.csproj" />
     <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared\MethodBoundaryAspect.Fody.UnitTests.Shared.csproj" />
-    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.TestProgram.Shared.Aspects\MethodBoundaryAspect.Fody.UnitTests.TestProgram.Shared.Aspects.csproj" />
     <ProjectReference Include="..\MethodBoundaryAspect\MethodBoundaryAspect.csproj" />
   </ItemGroup>
 

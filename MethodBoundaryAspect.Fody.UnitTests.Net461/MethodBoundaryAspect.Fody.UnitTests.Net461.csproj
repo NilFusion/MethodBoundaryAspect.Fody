@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="xunit.runner.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="xunit.runner.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Net461.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.Net461.TestAssembly.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared\MethodBoundaryAspect.Fody.UnitTests.Shared.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461\MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody\MethodBoundaryAspect.Fody.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect\MethodBoundaryAspect.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="del &quot;$(OutDir)*.Weaved.dll&quot;" />
+  </Target>
+</Project>

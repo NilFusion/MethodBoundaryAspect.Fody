@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects.csproj" />
+    <ProjectReference Include="..\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly.csproj" />
+  </ItemGroup>
+
+</Project>

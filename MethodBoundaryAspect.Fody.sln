@@ -7,19 +7,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect", "MethodBoundaryAspect\MethodBoundaryAspect.csproj", "{647FC29E-DDD1-4122-81A1-7FCD7E915F0F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests", "MethodBoundaryAspect.Fody.UnitTests\MethodBoundaryAspect.Fody.UnitTests.csproj", "{A0DBF542-6CA0-49CA-9EF7-C58D8E4E2243}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.TestAssembly", "MethodBoundaryAspect.Fody.UnitTests.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.TestAssembly.csproj", "{B5D3E43D-1B47-46DA-9CFE-76750D195359}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.UnverifiableTestAssembly", "MethodBoundaryAspect.Fody.UnitTests.UnverifiableTestAssembly\MethodBoundaryAspect.Fody.UnitTests.UnverifiableTestAssembly.csproj", "{DDB88B85-71FE-42B8-9653-EE0DBDC45620}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.TestAssemblyAspects", "MethodBoundaryAspect.Fody.UnitTests.TestAssemblyAspects\MethodBoundaryAspect.Fody.UnitTests.TestAssemblyAspects.csproj", "{EAD6BAD4-9DAE-44A4-9418-24A68F7C935A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461", "MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461\MethodBoundaryAspect.Fody.UnitTests.TestProgram.Net461.csproj", "{7E47C6C3-391F-4A29-B8BE-9CACD07EF916}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.TestProgram.Shared.Aspects", "MethodBoundaryAspect.Fody.UnitTests.TestProgram.Shared.Aspects\MethodBoundaryAspect.Fody.UnitTests.TestProgram.Shared.Aspects.csproj", "{67B19A17-C595-4186-A0D7-E254CF5841F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21", "MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21\MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21.csproj", "{4E8D1CC8-9100-4B57-BD40-1069E0FEEC37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21", "MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21\MethodBoundaryAspect.Fody.UnitTests.TestProgram.NetCore21.csproj", "{4E8D1CC8-9100-4B57-BD40-1069E0FEEC37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects", "MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects\MethodBoundaryAspect.Fody.UnitTests.Shared.TestAssemblyAspects.csproj", "{C1E61876-61CC-4132-9695-FEBC0EEA20C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly", "MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly\MethodBoundaryAspect.Fody.UnitTests.Shared.UnverifiableTestAssembly.csproj", "{F4F00FE8-4224-43D5-913C-92EEDA31FEA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.Shared", "MethodBoundaryAspect.Fody.UnitTests.Shared\MethodBoundaryAspect.Fody.UnitTests.Shared.csproj", "{E815D31F-07A2-4F92-A4F3-3BE358CA3767}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.Net461", "MethodBoundaryAspect.Fody.UnitTests.Net461\MethodBoundaryAspect.Fody.UnitTests.Net461.csproj", "{4DDBABF1-C32A-4EDE-A761-639D123DDB17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.Net461.TestAssembly", "MethodBoundaryAspect.Fody.UnitTests.Net461.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.Net461.TestAssembly.csproj", "{E2B461D1-715A-41FD-B63F-CE414645E039}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.NetCore21", "MethodBoundaryAspect.Fody.UnitTests.NetCore21\MethodBoundaryAspect.Fody.UnitTests.NetCore21.csproj", "{D39F163C-ACB0-412C-9EB1-992E03F110F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.NetCore21.TestAssembly", "MethodBoundaryAspect.Fody.UnitTests.NetCore21.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.NetCore21.TestAssembly.csproj", "{8D839073-8F14-4C90-91EE-41CCCF2576FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodBoundaryAspect.Fody.UnitTests.NetStandard2.TestAssembly", "MethodBoundaryAspect.Fody.UnitTests.NetStandard2.TestAssembly\MethodBoundaryAspect.Fody.UnitTests.NetStandard2.TestAssembly.csproj", "{B7491038-C1BD-46BE-BEA0-CA730099815F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,22 +43,6 @@ Global
 		{647FC29E-DDD1-4122-81A1-7FCD7E915F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647FC29E-DDD1-4122-81A1-7FCD7E915F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647FC29E-DDD1-4122-81A1-7FCD7E915F0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A0DBF542-6CA0-49CA-9EF7-C58D8E4E2243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0DBF542-6CA0-49CA-9EF7-C58D8E4E2243}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0DBF542-6CA0-49CA-9EF7-C58D8E4E2243}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0DBF542-6CA0-49CA-9EF7-C58D8E4E2243}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5D3E43D-1B47-46DA-9CFE-76750D195359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D3E43D-1B47-46DA-9CFE-76750D195359}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D3E43D-1B47-46DA-9CFE-76750D195359}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D3E43D-1B47-46DA-9CFE-76750D195359}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDB88B85-71FE-42B8-9653-EE0DBDC45620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDB88B85-71FE-42B8-9653-EE0DBDC45620}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDB88B85-71FE-42B8-9653-EE0DBDC45620}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDB88B85-71FE-42B8-9653-EE0DBDC45620}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAD6BAD4-9DAE-44A4-9418-24A68F7C935A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAD6BAD4-9DAE-44A4-9418-24A68F7C935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAD6BAD4-9DAE-44A4-9418-24A68F7C935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAD6BAD4-9DAE-44A4-9418-24A68F7C935A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E47C6C3-391F-4A29-B8BE-9CACD07EF916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E47C6C3-391F-4A29-B8BE-9CACD07EF916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E47C6C3-391F-4A29-B8BE-9CACD07EF916}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +55,38 @@ Global
 		{4E8D1CC8-9100-4B57-BD40-1069E0FEEC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E8D1CC8-9100-4B57-BD40-1069E0FEEC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E8D1CC8-9100-4B57-BD40-1069E0FEEC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E61876-61CC-4132-9695-FEBC0EEA20C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E61876-61CC-4132-9695-FEBC0EEA20C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E61876-61CC-4132-9695-FEBC0EEA20C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E61876-61CC-4132-9695-FEBC0EEA20C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F00FE8-4224-43D5-913C-92EEDA31FEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F00FE8-4224-43D5-913C-92EEDA31FEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F00FE8-4224-43D5-913C-92EEDA31FEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F00FE8-4224-43D5-913C-92EEDA31FEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E815D31F-07A2-4F92-A4F3-3BE358CA3767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E815D31F-07A2-4F92-A4F3-3BE358CA3767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E815D31F-07A2-4F92-A4F3-3BE358CA3767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E815D31F-07A2-4F92-A4F3-3BE358CA3767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDBABF1-C32A-4EDE-A761-639D123DDB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDBABF1-C32A-4EDE-A761-639D123DDB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDBABF1-C32A-4EDE-A761-639D123DDB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDBABF1-C32A-4EDE-A761-639D123DDB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B461D1-715A-41FD-B63F-CE414645E039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B461D1-715A-41FD-B63F-CE414645E039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B461D1-715A-41FD-B63F-CE414645E039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B461D1-715A-41FD-B63F-CE414645E039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39F163C-ACB0-412C-9EB1-992E03F110F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39F163C-ACB0-412C-9EB1-992E03F110F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39F163C-ACB0-412C-9EB1-992E03F110F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39F163C-ACB0-412C-9EB1-992E03F110F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D839073-8F14-4C90-91EE-41CCCF2576FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D839073-8F14-4C90-91EE-41CCCF2576FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D839073-8F14-4C90-91EE-41CCCF2576FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D839073-8F14-4C90-91EE-41CCCF2576FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7491038-C1BD-46BE-BEA0-CA730099815F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7491038-C1BD-46BE-BEA0-CA730099815F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7491038-C1BD-46BE-BEA0-CA730099815F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7491038-C1BD-46BE-BEA0-CA730099815F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
