@@ -42,6 +42,7 @@ namespace MethodBoundaryAspect.Fody
 
         public TypeReference GetTypeReference(Type type, string assemblyHint = null)
         {
+            return _moduleDefinition.ImportReference(type);
             var importedType = _moduleDefinition.ImportReference(type);
             // On .NET Core, we need to rewrite mscorlib types to use the
             // dot net assemblies from the weaved assembly and not the ones
