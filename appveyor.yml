@@ -18,9 +18,8 @@ after_build:
 - cmd: >-
     nuget pack MethodBoundaryAspect.Fody\MethodBoundaryAspect.Fody.nuspec -Properties "version=%APPVEYOR_BUILD_VERSION%"
 test_script:
-- cmd: >- 
-    dotnet test MethodBoundaryAspect.Fody.UnitTests.Net461 --configuration Release
-    dotnet test MethodBoundaryAspect.Fody.UnitTests.NetCore21 --configuration Release
+- cmd: dotnet test MethodBoundaryAspect.Fody.UnitTests.Net461 --configuration Release
+- cmd: dotnet test MethodBoundaryAspect.Fody.UnitTests.NetCore21 --configuration Release
 artifacts:
 - path: MethodBoundaryAspect.Fody\bin\$(configuration)
   name: Binaries
