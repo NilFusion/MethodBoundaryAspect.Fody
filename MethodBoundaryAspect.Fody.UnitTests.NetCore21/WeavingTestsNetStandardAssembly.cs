@@ -6,13 +6,14 @@ namespace MethodBoundaryAspect.Fody.UnitTests.NetCore21
 {
     public class WeavingTestsNetStandardAssembly : MethodBoundaryAspectNetCore21TestBase
     {
-        
+        public WeavingTestsNetStandardAssembly()
+        {
+            ExecutePeVerify = false;
+        }
+
         [Fact]
         public void IfNetStandardClassIsWeaved_ThenThereShouldBeNoException()
         {
-            //Debugger.Launch();
-            //Debugger.Break();
-
             WeaveAssemblyClass(typeof(SimpleClassWithMethod));
         }
     }

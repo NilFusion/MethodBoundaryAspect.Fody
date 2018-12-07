@@ -22,7 +22,9 @@ namespace MethodBoundaryAspect.Fody.UnitTests.Shared
         protected static string WeavedAssemblyPath { get; private set; }
         protected Type WeavedType { get; private set; }
         protected ModuleWeaver Weaver { get; set; }
-        
+
+        protected bool ExecutePeVerify { private get; set; } = true;
+
         public virtual void Dispose()
         {
             TryCleanupWeavedAssembly();
@@ -101,7 +103,8 @@ namespace MethodBoundaryAspect.Fody.UnitTests.Shared
 
             WeaveAssembly(type, Weaver);
             var ignores = type.Assembly.GetCustomAttributes<IgnorePEVerifyCode>();
-            RunPeVerify(ignores.Select(a => a.ErrorCode));
+            if (ExecutePeVerify)
+                RunPeVerify(ignores.Select(a => a.ErrorCode));
         }
 
         private string GetDllAssemblyPath()
